@@ -7,9 +7,9 @@ const Navbar3 = () => {
     <div className='navbar3'>
       <div className='navbar31'>
         <div className='navbar311'><Link to="/">Home</Link></div>
-        <div className='navbar312'><Link to="/">About</Link></div>
-        <div className='navbar312'><Link to="/">Events</Link></div>
-        <div className='navbar312'><Link to="/">Gallery</Link></div>
+        <div className='navbar312'><Link to="/about">About</Link></div>
+        <div className='navbar312'><Link to="/events">Events</Link></div>
+        <div className='navbar312'><Link to="/gallary">Gallery</Link></div>
         <div className='navbar312'><Link to="/login">Book Appointments</Link></div>
       </div>
     </div>

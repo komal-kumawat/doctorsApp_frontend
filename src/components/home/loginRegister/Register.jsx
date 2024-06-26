@@ -49,6 +49,7 @@ const Register = () => {
     const submitData = async (e) => {
         axios.post("https://doctorsapp-backend-oe1m.onrender.com/register", registrationData)
             .then((response) => {
+                alert("successfully registered");
                 navigate('/login');
             })
             .catch((error) => {
